@@ -3,7 +3,7 @@
 const jobData = [
     {
       id: 1,
-      companyLogo: '../src/assets/logos/logo-dark.svg',
+      companyLogo: '../src/assets/logos/epic-hire-logo.png',
       companyName: 'Epic Hire',
       jobTitle: 'Frontend Intern',
       experienceLevel: 'Internship',
@@ -32,7 +32,7 @@ const jobData = [
       location: 'Austin, TX',
       remoteType: 'Hybrid',
       postedDate: '2023-09-25',
-      status: 'Offered',
+      status: null,
     },
     {
       id: 4,
@@ -43,7 +43,7 @@ const jobData = [
       location: 'Seattle, WA',
       remoteType: 'Remote',
       postedDate: '2023-10-02',
-      status: 'Rejected',
+      status: null,
     },
     {
       id: 5,

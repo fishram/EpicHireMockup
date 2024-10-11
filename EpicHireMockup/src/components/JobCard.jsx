@@ -23,8 +23,8 @@ export default function JobCard(props) {
     }
   };
 
-return (
-  <div className={`job-card ${job.status ? getStatusClass(job.status) : ''}`}>
+  return (
+    <div className={`job-card ${job.status ? getStatusClass(job.status) : ''}`}>
       <img
         src={job.companyLogo}
         alt={`${job.companyName} logo`}

@@ -1,14 +1,14 @@
-import Navbar from "./components/NavBar"
-import JobList from "./components/JobList"
+import React from 'react';
+import NavBar from './components/NavBar';
+import JobListContainer from './components/JobListContainer';
 
 function App() {
-
   return (
-    <div className="app-container">
-        <Navbar />
-        <JobList />
+    <div className="App">
+      <NavBar />
+      <JobListContainer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
