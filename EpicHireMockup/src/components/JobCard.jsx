@@ -3,8 +3,8 @@ import React from 'react';
 export default function JobCard(props) {
   const { job, onApply, onStatusChange } = props;
 
-  const handleStatusChange = (e) => {
-    const newStatus = e.target.value;
+  const handleStatusChange = (event) => {
+    const newStatus = event.target.value;
     onStatusChange(job.id, newStatus);
   };
 
